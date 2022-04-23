@@ -112,6 +112,7 @@ impl Impl {
             ty: ty.into(),
             documentation: Vec::new(),
             annotation: Vec::new(),
+            visibility: None,
         });
 
         self
